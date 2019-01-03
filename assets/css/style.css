@@ -1,1 +1,29 @@
-body
+@font-face {
+    font-family: cartoon;
+    src: url("../font/Cartoon_Regular.ttf");
+}
+body {
+    font-family: cartoon;
+    font-size: 35px;
+    color: white;
+    background-image: url("../images/comic-bg2.jpg");
+    background-size: cover;
+}
+.headingText {
+    font-size: 80px;
+    /* background-color: black; */
+}
+.header {
+    background-image: url("../images/heading-pic2.jpg");
+    background-size: 100%;
+    padding: 30px;
+}
+.choices {
+    margin: 10px;
+    font-size: 24px;
+}
+.divBox {
+    margin: 10px;
+    border: solid 2px black;
+    background-color: gray;
+}
