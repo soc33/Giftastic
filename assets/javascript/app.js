@@ -15,9 +15,13 @@ function makeButtons() {
 
 $("#add-choice").on("click", function (event) {
     event.preventDefault();
+    if ($("#gif-input").val().trim() && choices.indexOf($("#gif-input").val().trim()) === -1) {
     var gif = $("#gif-input").val().trim();
     choices.push(gif);
     makeButtons();
+    }
+    $("#gif-input").val("");
+
 });
 
 // var ratingChoice = $("#grid-state").val();
