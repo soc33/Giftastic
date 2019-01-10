@@ -31,7 +31,7 @@ function displaygifs() {
     var gifs = $(this).attr("data-name");
     var ratingChoice = $("#grid-state").val();
     console.log(ratingChoice);
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifs + "&api_key=FKljlk5rvmmXmg6Kp4KEDE9ihDrYT43y&rating=" + ratingChoice;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifs + "&api_key=FKljlk5rvmmXmg6Kp4KEDE9ihDrYT43y&rating=" + ratingChoice;
 
     $.ajax({
         url: queryURL,
