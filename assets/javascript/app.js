@@ -21,6 +21,7 @@ $("#add-choice").on("click", function (event) {
     makeButtons();
     }
     $("#gif-input").val("");
+    displaygifs();
 
 });
 

@@ -20,22 +20,27 @@
             <p class="headingText">Cartoon Cartoons!</p>
             <div id="place-of-buttons"></div>
             Choose the Top Rating Allowed:
-                <select class="block appearance-none bg-grey-lighter border border-grey-lighter text-grey-darker px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey"
-                    id="grid-state">
-                    <option value="g">g</option>
-                    <option value="pg">pg</option>
-                    <option value="pg-13">pg-13</option>
-                    <option value="y">y</option>
-                </select> <br>
+            <select class="block appearance-none bg-grey-lighter border border-grey-lighter text-grey-darker px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey"
+                id="grid-state">
+                <option value="g">g</option>
+                <option value="pg">pg</option>
+                <option value="pg-13">pg-13</option>
+                <option value="y">y</option>
+            </select> <br>
             <form id="gif-form ">
                 <label for="gif-input">Add more choices here:</label>
                 <input type="text" id="gif-input" />
                 <input id="add-choice" type="submit" value="Add!" />
 
             </form>
+        </div> <br>
+        <div class="flex content-start flex-wrap h-96">
+            <div id="gif-view">
+                <div class="float-left w-1/2"><img src="assets/images/doit.gif"> </div> <p style="background-color: black">
+                Click one of the current choices or create a new choice to view some awesome
+                    cartoon gifs! </p>
+            </div>
         </div>
-
-        <div id="gif-view"></div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
